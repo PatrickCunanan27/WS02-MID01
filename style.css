@@ -1,6 +1,6 @@
 html, body{
-	background: rgb(252,145,130);
-background: radial-gradient(circle, rgba(252,145,130,1) 0%, rgba(223,128,138,1) 61%, rgba(182,105,149,1) 70%, rgba(152,88,157,1) 80%, rgba(107,62,169,1) 92%);
+	background: rgb(255,128,134);
+background: linear-gradient(90deg, rgba(255,128,134,1) 0%, rgba(241,145,181,1) 50%, rgba(116,83,164,1) 100%);
 	font-family:'Times New Roman', Times, serif;
 	margin:0;
 }
@@ -17,16 +17,19 @@ p{
 	font-size: 25px;
 }
 h2{
+	font-family: krabby;
 font-size: 35px;
 text-shadow: 1px 3px 2px rgba(0,0,0,0.44);
-	color: #ADCE57;
+	color: #8CFF80;
 	font-weight: bold;
 	}
 h1{
-	font-family: Arial, Helvetica, sans-serif;
-	text-shadow: 1px 3px 2px rgba(0,0,0,0.44);
-font-size: 110px;
-color: #ADCE57;
+font-family: krabby;
+font-weight: bold;
+color: #fff; /* Text color */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+font-size: 100px;
+color: #8CFF80;
 }
 @font-face {
 font-family:krabby;
@@ -62,7 +65,7 @@ img.big-image{
 p.caption{
 font-size: 16px;
 color: Lightgrey;
-font-style: italic;
+font-family: krabby;
 }
 ul{
 list-style: none; padding: 0; margin: 0;
