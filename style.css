@@ -38,8 +38,10 @@ src: url(fonts/krabby_patty/Krabby\ Patty.ttf);
 
 header img{
 
-	height: 100px;
-	width: 100px;
+	width: 300px;
+	height: 300px;
+	border: 7px solid black;
+	border-radius: 50%;
 
 }
 .f {
